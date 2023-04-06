@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/school.jpeg);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    
+}
+
+
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f1ecec;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.map{
+    width: 1496px;
+    height: 460px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    background-color: white;
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.text-center1{
+    width: 1519px;
+    background-color:black;
+    text-align: center;
+    
+}
+.text-reset1{
+    color:black;
+    
+}
